@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio</title>
+
+    <!-- Google Font: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="portoeve.css" />
+    <script src="portoeve1.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="brand">
+        <img src="element/icon1.png" alt="Sparkle Logo" />
+        <div class="logo">Deneta Evelyn</div>
+        <img src="element/icon1.png" alt="" class="sparkle-right" />
+      </div>
+
+      <!-- Navbar Desktop -->
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#activities">Activities</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <!-- Tombol Hamburger -->
+      <button
+        class="hamburger"
+        id="hamburger"
+        type="button"
+        aria-label="Buka menu navigasi"
+        aria-controls="mobileMenu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- Navbar Mobile -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#activities">Activities</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+      <!-- Home / Hero -->
+      <section class="banner-box" id="home" data-section="home">
+        <div class="banner-copy">
+          <p class="eyebrow">Hello, I'm</p>
+
+          <h1 class="name-heading">
+            <span id="typed-name" class="typed-highlight">
+              Deneta Evelyn Simamora
+            </span>
+            <span class="typing-cursor">|</span>
+          </h1>
+
+          <p class="role">Computer Science Student</p>
+
+          <div class="social-links">
+            <a href="https://github.com/DenetaEvelyn" aria-label="GitHub">
+              <img src="element/icongh.png" alt="" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/deneta-evelyn-simamora-317650335/"
+              aria-label="LinkedIn"
+            >
+              <img src="element/linkedin.png" alt="" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/deneta_evelyn/"
+              aria-label="Instagram"
+            >
+              <img src="element/instagram.png" alt="" />
+            </a>
+            <a
+  href="https://line.me/ti/p/K2GXAu-BrD"
+  aria-label="LINE"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="element/line.png" alt="" />
+</a>
+          </div>
+
+          <p class="intro">
+            I am interested in UI/UX design, web development, and data analyst who is always eager to learn and grow.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="project-button">View Projects</a>
+            <a href="#contact" class="contact-button">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+         <img src="element/fotoeve3.jpeg" alt="Foto Deneta Evelyn" />
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about-section" id="about" data-section="about">
+        <div class="about-content">
+          <h2>About Me</h2>
+
+          <p class="about-text">
+            I’m a fifth-semester Computer Science student at BINUS University
+            with a GPA of 3.05, currently pursuing a minor in Digital
+            Transformation. I’m especially interested in UI/UX design and have
+            explored it through academic projects, designing websites and
+            applications with Figma—from user flows and wireframes to
+            prototypes. I’m also building my knowledge of data through my
+            coursework and look forward to applying it in future projects.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-item">
+              <h3>My Interests</h3>
+              <p>UI/UX Design</p>
+              <p>Web Development</p>
+              <p>Data</p>
+              <p>Digital Transformation</p>
+            </div>
+
+            <div class="about-item">
+              <h3>Currently Learning</h3>
+              <p>UI/UX design, web development, and data </p>
+            </div>
+          </div>
+
+          <div class="about-tools">
+            <h3>Tools I Use</h3>
+
+            <div class="tool-list">
+              <div class="tool-item">
+                <img class="figma-logo" src="element/figmalogo.png" alt="Figma" />
+              </div>
+
+              <div class="tool-item">
+                <img
+                  class="vscode-logo"
+                  src="element/vscodelogo.png"
+                  alt="Visual Studio Code"
+                />
+              </div>
+
+              <div class="tool-item">
+                <img
+                  class="excel-logo"
+                  src="element/excellogo.png"
+                  alt="Microsoft Excel"
+                />
+              </div>
+
+              <div class="tool-item">
+                <img
+                  class="word-logo"
+                  src="element/wordlogo.png"
+                  alt="Microsoft Word"
+                />
+              </div>
+
+              <div class="tool-item">
+                <img
+                  class="php-logo"
+                  src="element/phpmyadminlogo.png"
+                  alt="phpMyAdmin"
+                />
+              </div>
+
+              <div class="tool-item">
+                <img
+                  class="rapidminer-logo"
+                  src="element/rapid minerlogo.png"
+                  alt="RapidMiner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects-section" id="projects" data-section="projects">
+        <div class="projects-content">
+          <h2>Projects</h2>
+          <p class="projects-intro">
+            A selection of academic projects I worked on during my studies.
+          </p>
+
+          <div class="project-grid">
+            <!-- Sigma Coffee -->
+            <article class="project-card">
+              <div class="project-image">
+                <img src="element/sigmacoffe.png" alt="Sigma Coffee project preview" />
+              </div>
+              <div class="project-info">
+                <p class="project-type">Academic Project · UI/UX Design</p>
+                <h3>Sigma Coffee</h3>
+                <a href="sigmacoffe.html">View Project</a>
+              </div>
+            </article>
+
+            <!-- Petod -->
+            <article class="project-card">
+              <div class="project-image">
+                <img src="element/petod.png" alt="Petod project preview" />
+              </div>
+              <div class="project-info">
+                <p class="project-type">Academic Project · UI/UX Design</p>
+                <h3>Petod</h3>
+                <a href="petod.html">View Project</a>
+              </div>
+            </article>
+
+            <!-- Smart Scanboard -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="element/smartboard.png"
+                  alt="Smart Scanboard project preview"
+                />
+              </div>
+              <div class="project-info">
+                <p class="project-type">Academic Project · Dashboard Design</p>
+                <h3>Smart Scanboard</h3>
+                <a href="smartboard.html">View Project</a>
+              </div>
+            </article>
+
+            <!-- Medical Portal Job-Seeker -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="element/MJ.png"
+                  alt="Medical Portal Job-Seeker project preview"
+                />
+              </div>
+              <div class="project-info">
+                <p class="project-type">Academic Project · UI/UX Design</p>
+                <h3>Medical Portal Job-Seeker</h3>
+                <a href="medical.html">View Project</a>
+              </div>
+            </article>
+
+            <!-- Arisanku -->
+            <article class="project-card">
+              <div class="project-image">
+                <img src="element/arisankulogo.png" alt="Arisanku project preview" />
+              </div>
+              <div class="project-info">
+                <p class="project-type">Competition Project · UI/UX Design</p>
+                <h3>Arisanku</h3>
+                <a href="arisanku.html">View Project</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="activities-section" id="activities">
+        <div class="activities-content">
+          <h2>Activities</h2>
+          <div class="activity-grid">
+            <article class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="element/pembinaan informatika.jpeg"
+                  alt="Kegiatan pembinaan informatika di SMA Negeri 21 Bandung "
+                />
+              </div>
+
+              <div class="activity-info">
+                <p class="activity-date">January 30, 2026 · SMAN 21 Bandung</p>
+                <div class="activity-title-row">
+                  <h3>Informatics Coaching</h3>
+                  <p class="activity-role">as Teaching Assistant</p>
+                </div>
+                <p class="activity-description">
+                  I took part in an informatics coaching session at SMAN 21
+                  Bandung, where I helped BINUS University Bandung lecturers Pak
+                  Haldi and Pak Davy teach students how to build a calculator in
+                  a simple and approachable way, together with fellow students
+                  Pamella, Azalea, Shafiya, and Owen.
+                </p>
+              </div>
+            </article>
+
+            <article class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="element/PSSA.jpeg"
+                  alt="Kegiatan BAKSOS LUKIS Patung bersama anak-anak PSSA Nurul Ihsan"
+                />
+              </div>
+
+              <div class="activity-info">
+                <p class="activity-date">April 19, 2026 · PSSA Nurul Ihsan</p>
+
+                <div class="activity-title-row">
+                  <h3>BAKSOS LUKIS Patung</h3>
+                  <p class="activity-role">as a Volunteer</p>
+                </div>
+
+                <p class="activity-description">
+                  I volunteered in a social service activity, painting together
+                  with children from PSSA Nurul Ihsan.
+                </p>
+              </div>
+            </article>
+
+            <article class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="element/esse.jpeg"
+                  alt="Kegiatan daur ulang sampah bersama siswa kelas 4 SDN 113 Banjarsari"
+                />
+              </div>
+
+              <div class="activity-info">
+                <p class="activity-date">
+                  October 24 · SDN 113 Banjarsari, Bandung
+                </p>
+
+                <div class="activity-title-row">
+                  <h3>ESSE Project</h3>
+                  <p class="activity-role">as Activity Planner & Volunteer</p>
+                </div>
+
+                <p class="activity-description">
+                  As part of the ESSE Project, I helped plan and lead an
+                  activity with Nara, Geoffrey, Fahry, Ikshan, Ridho, and
+                  Hilmee, under the guidance of our senior Ci Natasha. We taught
+                  fourth-grade students at SDN 113 Banjarsari, Bandung about
+                  plastic waste, its impact, and the importance of recycling and
+                  reducing waste.
+                </p>
+              </div>
+            </article>
+
+            <article class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="element/bendahara1.jpeg"
+                  alt="Kegiatan Persekutuan Doa SMA Negeri 3 Kabupaten Tangerang"
+                />
+              </div>
+
+              <div class="activity-info">
+                <p class="activity-date">
+                  Executive Committee — Head Treasurer 2023–2024 · SMA Negeri 3
+                  Kabupaten Tangerang
+                </p>
+
+                <div class="activity-title-row">
+                  <h3>Christian Fellowship</h3>
+                  <p class="activity-role">as Head Treasurer</p>
+                </div>
+
+                <p class="activity-description">
+                  Served as the Head Treasurer of the Christian Fellowship at
+                  SMA Negeri 3 Kabupaten Tangerang during the 2023–2024 term. I
+                  managed the organization’s finances, recorded income and
+                  expenses, prepared a budget report, and coordinated with other
+                  committee members to allocate funds for fellowship activities.
+                </p>
+              </div>
+            </article>
+
+            <article class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="element/natalPD.jpeg"
+                  alt="Christmas celebration at SMA Negeri 3 Kabupaten Tangerang"
+                />
+              </div>
+
+              <div class="activity-info">
+                <p class="activity-date">
+                  January 13, 2024 · SMA Negeri 3 Kabupaten Tangerang
+                </p>
+
+                <div class="activity-title-row">
+                  <h3>Christmas Celebration</h3>
+                  <p class="activity-role">
+                    As Treasurer · Consumption Team · Timekeeper
+                  </p>
+                </div>
+
+                <p class="activity-description">
+                  As the treasurer for the Christmas celebration, I recorded the
+                  event’s income and expenses and prepared a financial report. I
+                  also monitored the consumption team’s progress to keep track
+                  of its preparations. During the event, I served as the
+                  timekeeper and helped keep the program running according to
+                  schedule.
+                </p>
+              </div>
+            </article>
+
+            <article class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="element/pelantikan pd.jpeg"
+                  alt="Joint inauguration at Kampung Kelapa"
+                />
+              </div>
+
+              <div class="activity-info">
+                <p class="activity-date">
+                  September 29–30, 2023 · Kampung Kelapa
+                </p>
+
+                <div class="activity-title-row">
+                  <h3>Joint Inauguration</h3>
+                  <p class="activity-role">
+                    as Treasurer · Consumption · Logistics
+                  </p>
+                </div>
+
+                <p class="activity-description">
+                  Served on the committee for the 2024–2025 joint inauguration
+                  period, held at Kampung Kelapa on September 29–30, 2023. I
+                  took on responsibilities as treasurer, supported the
+                  consumption team, and helped with logistics and event
+                  equipment. Through these roles, I contributed to preparing the
+                  needs of the committee and supporting the event throughout its
+                  preparation and execution.
+                </p>
+              </div>
+            </article>
+            <article class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="element/paskahpd.jpeg"
+                  alt="Easter celebration at HKBP Binong Permai"
+                />
+              </div>
+
+              <div class="activity-info">
+                <p class="activity-date">April 15, 2023 · HKBP Binong Permai</p>
+
+                <div class="activity-title-row">
+                  <h3>Easter Celebration</h3>
+                  <p class="activity-role">As Treasurer</p>
+                </div>
+
+                <p class="activity-description">
+                  I served as the treasurer for the Easter celebration organized
+                  by SMA Negeri 3 Kabupaten Tangerang at HKBP Binong Permai. I
+                  was responsible for managing the event’s finances and helping
+                  ensure that funds were handled carefully throughout the
+                  preparation and event. This role gave me the opportunity to
+                  contribute to the committee’s work while developing my sense
+                  of responsibility, organization, and attention to detail.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="certifications-section" id="certifications">
+        <div class="certifications-content">
+          <h2>Certifications</h2>
+          <p class="certifications-intro">
+            Courses and certifications I have completed.
+          </p>
+
+          <div class="certification-grid">
+            <article class="certification-card">
+              <img
+                src="element/DA sertif.png"
+                alt="RevoU Mini Course certificate for Intro to Data Analytics"
+              />
+              <div class="certification-info">
+                <h3>Intro to Data Analytics</h3>
+                <p>RevoU · Issued August 8, 2025</p>
+              </div>
+            </article>
+
+            <article class="certification-card">
+              <img
+                src="element/oracle sertif.png"
+                alt="Oracle Dev Gym Certificate of Excellence for Databases for Developers: Foundations"
+              />
+              <div class="certification-info">
+                <h3>Databases for Developers: Foundations</h3>
+                <p>Oracle Dev Gym · Certificate of Excellence · 100% grade</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-content">
+          <p class="contact-eyebrow">GET IN TOUCH</p>
+          <h2>Let’s <span>Connect</span></h2>
+          <p class="contact-intro">
+            Feel free to reach out for inquiries, collaborations, or just a
+            quick chat.
+          </p>
+
+          <div class="social-links contact-social-links">
+  <a href="https://github.com/DenetaEvelyn" aria-label="GitHub">
+    <img src="element/icongh.png" alt="" />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/deneta-evelyn-simamora-317650335/"
+    aria-label="LinkedIn"
+  >
+    <img src="element/linkedin.png" alt="" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/deneta_evelyn/"
+    aria-label="Instagram"
+  >
+    <img src="element/instagram.png" alt="" />
+  </a>
+  <a
+  href="https://line.me/ti/p/K2GXAu-BrD"
+  aria-label="LINE"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="element/line.png" alt="" />
+</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
